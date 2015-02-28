@@ -27,3 +27,30 @@ body > .container {
 .footer > .container > p {
   margin: 20px 0;
 }
+
+ul.bookmarks {
+  display: block;
+  padding: 0;
+}
+li.bookmark {
+  display: inline-block;
+  padding: 10px;
+}
+li.bookmark > a {
+  display: block;
+  padding: 15px;
+  border-radius: 5px;
+}
+li.bookmark > a > img {
+  width: 75px;
+  height: 75px;
+}
+li#bookmark-yahoomail > a {
+  background-color: rgb(64,0,162);
+}
+li#bookmark-cc-search > a {
+  background-color: #5AA322;
+}
+li#bookmark-cc-search > a > img {
+  width: 222px;
+}
