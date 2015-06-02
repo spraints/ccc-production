@@ -1,7 +1,17 @@
 url: http://production.frankfortccc.com
 title: CCC Production
 
-permalink: /articles/:title.html
+permalink: /manuals/:title.html
+
+collections:
+  manuals:
+    output: true
+defaults:
+- scope:
+    path: ""
+    type: manuals
+  values:
+    layout: default
 
 safe: true
 lsi: false

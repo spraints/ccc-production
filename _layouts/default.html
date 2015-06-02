@@ -25,8 +25,8 @@
             <li><a href="/">Home</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Manuals <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">{% for post in site.posts %}
-                <li><a href="{{post.url}}">{{post.title}}</a></li>
+              <ul class="dropdown-menu" role="menu">{% for manual in site.manuals %}
+                <li><a href="{{manual.url}}">{{manual.title}}</a></li>
               {% endfor %}</ul>
             </li>
           </ul>
@@ -43,7 +43,7 @@
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted"><a href="{{site.github.repository_url}}/edit/gh-pages/{{page.path}}">edit this page</a></p>
+        <p class="text-muted col-md-3 col-md-offset-3"><a href="{{site.github.repository_url}}/edit/gh-pages/{{page.path}}">edit this page</a></p>
       </div>
     </footer>
 
