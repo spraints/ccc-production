@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Adding Tim's Sermon to Pro Presenter"
 ---
 
