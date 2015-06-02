@@ -1,0 +1,3 @@
+[submodule "images/l"]
+	path = images/l
+	url = https://github.com/spraints/ccc-production-images
