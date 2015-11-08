@@ -4,7 +4,7 @@ title: "Audio basics"
 
 ## Sound Board
 
-We have a Mackie 1604-VLZ PRO sound board ([pdf manual](http://www.mackie.com/pdf/1604vlzpro_om.pdf)).
+We have a Mackie 1604-VLZ PRO sound board ([pdf manual](https://www.lclark.edu/live/files/14556-mackie-1604-vlz-pro-manual)).
 The sound board controls volume to the camera, the stage monitors, the booth monitors, and the main speakers.
 
 <img src="/images/l/sound-board.jpg" class="img-responsive">
