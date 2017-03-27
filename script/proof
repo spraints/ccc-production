@@ -5,5 +5,9 @@ exec bundle exec ruby "$0" "$@"
 
 require "html-proofer"
 
-options = { :assume_extension => true }
+options = {
+  :assume_extension => true,
+  :allow_hash_href => true,
+  :alt_ignore => [/./],
+}
 HTMLProofer.check_directory("./_site", options).run

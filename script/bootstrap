@@ -2,5 +2,7 @@
 
 set -e
 
+test -n "$SKIP_SUBMODULES" || git submodule update --init
+
 bundle check || \
   bundle --path .bundle
