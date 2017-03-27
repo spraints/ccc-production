@@ -1,0 +1,9 @@
+#!/bin/bash
+script/build
+exec bundle exec ruby "$0" "$@"
+#!ruby
+
+require "html-proofer"
+
+options = { :assume_extension => true }
+HTMLProofer.check_directory("./_site", options).run
