@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+script/bootstrap
+exec bundle exec jekyll build --config _config.yml,_local_config.yml
