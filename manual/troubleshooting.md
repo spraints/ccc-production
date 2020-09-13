@@ -19,10 +19,15 @@ layout: default
 
 ## Video
 
-### No picture?
+### No picture
 * Open the camera shutter.
 
 ## Computer
+
+### Not outputting to the screen
+* Ensure everything is plugged in.
+* Try restarting ProPresenter or the computer.
+* Click the "Screens" menu, then configure screens. Ensure the Audience screen is set to the right monitor. Ensure the Stage screen is set to the left monitor.
 
 ## Booth
 
